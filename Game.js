@@ -65,8 +65,8 @@ class Game {
         x = x + 400;
 
         y = displayHeight - 230 - allPlayers[plr].distance;
-        Jets[index-1].x = x;
-        Jets[index-1].y = y;
+        // Jets[index-1].x = x;
+        // Jets[index-1].y = y;
 
           
         if (index === player.index){
